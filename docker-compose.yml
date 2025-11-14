@@ -1,0 +1,24 @@
+services:
+  vulnerable:
+    build:
+      context: .
+      args:
+        - POM_XML=vuln.pom.xml
+    image: s4svuln:orig
+    container_name: s4svuln
+    environment:
+      - DOCKER=1
+    ports:
+      - "8080:8080"
+
+  patched:
+    build:
+      context: .
+      args:
+        - POM_XML=patched.pom.xml
+    image: s4spatched:orig
+    container_name: s4spatched
+    environment:
+      - DOCKER=1
+    ports:
+      - "8081:8080"
