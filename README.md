@@ -1,6 +1,6 @@
 # CS4239-Spring4Shell-POC
 
-Proof of concept for CVE-2022-22965 (Spring4Shell) for CS4239 report. Adapted from [this PoC](https://github.com/lunasec-io/Spring4Shell-POC) to demonstrate unpatched & patched behavior.
+Proof of concept for CVE-2022-22965 (Spring4Shell) for CS4239 G410 report. Adapted from [this PoC](https://github.com/lunasec-io/Spring4Shell-POC) to demonstrate unpatched & patched behavior.
 
 ## Running the demo
 
